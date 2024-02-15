@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .oy{
+        width: 100%;
+        height: 50px;
+        border: 2px solid goldenrod;
+        display: flex;
+        justify-content: space-around;
+    }
+    .oy h1{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: blue;
+    }
+    .oy p{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: rgb(13, 118, 118);
+    }
+    section{
+        width: 100;
+        height: 600px;
+        border: 2px solid gold;
+        justify-content: end;
+        display: flex;
+        cursor: context-menu;
+        align-items: center;
+        flex-direction: column;
+        background: url(./1617771618_60-p-oboi-gular-rasim-65.jpg);
+    }
+    .gul{
+        margin: 2rem;
+        width: 150px;
+        height: 200px;
+        justify-content: center;
+        border: 2px solid gold;
+        background: url(./guli.jpg);
+        position: relative;
+        animation-name: gul;
+        animation-duration: 6s;
+        animation-iteration-count: 30;
+    }
+    @keyframes gul{
+        0%{
+            transform: rotate(60deg);
+        }
+        30%{transform: rotate(90deg);}
+        60%{transform: rotate(150deg);}
+        90%{
+            transform: rotate(270deg);
+            transform: rotate(360deg);
+        }
+
+    }
+    .yoz{
+        width: 200px;
+        height: 100px;
+        display: flex;
+        background-color: aqua;
+        content: url(./bootstrap\,jpg.jpg);
+    }
+    button{
+        width: 200px;
+        height: 40px;
+        border: 2px solid rgb(223, 96, 96);
+        border-radius: 9px;
+        
+       
+        background-color: rgb(22, 209, 147);
+    }
+    button:hover{
+        background-color: rgb(205, 226, 43);
+    }
+    button::before{
+        content: "orqaga";
+    }
+
+
+    button:hover::before{
+        content:"bosing";
+        background-color: rgb(171, 226, 43);
+    }
+</style>
+<body>
+    <nav>
+        <div class="oy">
+            <h1>SALOM</h1>
+            <p>animatsiya</p>
+            <p>hover</p>
+            <p>harakatlanish</p>
+            <a href="./index3.html">
+                <button></button>
+            </a>
+
+        </div>
+        
+    </nav>
+    <section>
+       
+    
+
+        <div class="gul">
+            <div class="gul">
+                <div class="gul"></div>
+            </div>
+            <div class="yoz">
+
+            </div>
+            
+        <div class="gul">
+            <div class="gul">
+                <div class="gul"></div>
+            </div>
+            <div class="yoz">
+                
+
+            </div>
+            
+        <div class="kuz">
+            <div class="kuz">
+                <div class="gul"></div>
+            </div>
+            <div class="yoz">
+                
+
+            </div>
+         </div>
+           
+
+       
+    </section>
+</body>
+</html>
